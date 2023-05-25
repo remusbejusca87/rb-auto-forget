@@ -1,0 +1,19 @@
+{
+  "action": {
+    "default_icon": "resources/hello_extensions.png",
+    "default_popup": "html/config.html"
+  },
+  "background": {
+    "service_worker": "scripts/service-worker.js",
+    "type": "module"
+  },
+  "description": "Base Level Extension",
+  "manifest_version": 3,
+  "minimum_chrome_version": "96",
+  "name": "Auto-Forget",
+  "permissions": [
+    "webNavigation",
+    "history"
+  ],
+  "version": "1.0"
+}
